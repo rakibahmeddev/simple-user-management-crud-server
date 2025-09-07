@@ -5,26 +5,31 @@ It provides RESTful API endpoints to **create, read, update, and delete users**.
 
 ---
 
-## Live API
+## Live Links
 
-The server is deployed here:  
-`https://user-management-curd-server.vercel.app/`
+- **Frontend:** [Simple User Management App](https://simple-user-management-three.vercel.app/)  
+- **Backend API:** [User Management API](https://user-management-curd-server.vercel.app/)
 
 ---
 
 ## Features
 
-- RESTful API endpoints for CRUD operations
+- CRUD operations for users
 - MongoDB database integration
-- Supports CORS for frontend consumption
-- Compatible with React frontend
+- CORS enabled for frontend consumption
+- Compatible with React frontend using React Router
 
 ---
 
 ## Tech Stack
 
-- **Backend:** Node.js, Express.js
-- **Database:** MongoDB
-- **Other:** CORS, dotenv for environment variables
+- **Backend:** Node.js, Express.js  
+- **Database:** MongoDB  
+- **Other:** CORS, dotenv for environment variables  
 
 ---
+
+## API Endpoints -> Users
+## for single user -> users/id
+
+### Get all users
